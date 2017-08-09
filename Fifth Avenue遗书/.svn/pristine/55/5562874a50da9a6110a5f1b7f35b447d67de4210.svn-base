@@ -1,0 +1,95 @@
+#body2{
+
+	min-height: 1000px;
+	width: 100%;
+}
+.box{
+	position: absolute;
+	left: 120px;
+	top: 196px;
+	width: 470px;
+	height: 470px;
+	border: solid 1px #EAEAEA;
+	padding-left:68px ;
+}
+#box2{
+	position: absolute;
+	width: 334px;
+	height: 470px;
+	top: 0px;
+	left: 68px;
+}
+.mask{
+	position: absolute;
+			transition: 1s;
+			top: 0;
+			left: 0;
+			right: 0;
+			bottom: 0;
+}
+.cloudzoom-blank {
+	position: absolute;
+	width: 334px;
+	height: 470px;
+	top: 0px;
+	left: 0px;
+    background-image: url(../images/blank.png);
+}
+#box2:hover .mask{
+			opacity: 0.2;
+			background: #FFFFFF;
+}
+#box2:hover .smallArea{
+			display: block;	
+		}
+#box2:hover .bigArea{
+			left: 420px;
+			top: 0;
+			width: 334px;
+			height: 470px;
+    		box-shadow: 0px 0px 10px rgba(0,0,0,0.40);
+		    border: 1px solid #888;
+}
+.smallArea {
+			transition: width 1s,height 1s;
+			position: absolute;
+			display:none ;
+			overflow: hidden;
+			box-sizing: border-box;
+			top: 0;
+			/*width: 274px;
+			height: 274px;*/
+		    border: 3px solid #888;
+	        box-shadow: 0px 0px 10px rgba(0,0,0,0.40);
+		    cursor: crosshair;
+		    /*background: #000;*/
+		    z-index: 100;
+		}
+		
+.smallImg{
+			position: absolute;
+			display: block;
+			width: 340px;
+		    height: 470px;
+			}
+.bigArea{
+	box-shadow: 0px 0px 10px rgba(0,0,0,0.40);
+	position: absolute;
+	overflow: hidden;
+	transition: .4s;
+	left: 220px;
+	top: 200px;
+	width:0px;
+	height: 0px;
+	opacity: 1;
+	z-index: 101;
+	 border: 1px solid #888;
+}
+.bigImg{
+	position: absolute;
+	max-width: none;
+	left: 0px;
+	top: 0px;
+	width: 436px;
+	height: 614px;
+}

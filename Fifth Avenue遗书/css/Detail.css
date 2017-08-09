@@ -1,0 +1,764 @@
+#body2{
+
+	min-height: 1000px;
+	width: 100%;
+}
+.box{
+	position: relative;
+	margin-top: 16px;
+	width: 402px;
+	height: 470px;
+	border: solid 1px #EAEAEA;
+	padding-left:68px ;
+	box-shadow: 0px 0px 10px rgba(0,0,0,0.40);
+}
+#box2{
+	position: absolute;
+	width: 334px;
+	display: block;
+	height: 470px;
+	top: 0px;
+	left: 68px;
+}
+.mask{
+	position: absolute;
+			transition: 1s;
+			top: 0;
+			left: 0;
+			right: 0;
+			bottom: 0;
+}
+.cloudzoom-blank {
+	position: absolute;
+	width: 334px;
+	height: 470px;
+	top: 0px;
+	left: 0px;
+    background-image: url(../images/blank.png);
+}
+#box2:hover .mask{
+			opacity: 0.4;
+			background: #FFFFFF;
+}
+#box2:hover .smallArea{
+			display: block;	
+		}
+#box2:hover .bigArea{
+			left: 420px;
+			top: 0;
+			width: 334px;
+			height: 470px;
+    		box-shadow: 0px 0px 10px rgba(0,0,0,0.40);
+		    border: 1px solid #888;
+}
+.smallArea {
+			transition: width 1s,height 1s;
+			position: absolute;
+			display:none ;
+			overflow: hidden;
+			box-sizing: border-box;
+			top: 0;
+			/*width: 274px;
+			height: 274px;*/
+		    border: 3px solid #888;
+	        box-shadow: 0px 0px 10px rgba(0,0,0,0.40);
+		    cursor: crosshair;
+		    /*background: #000;*/
+		    z-index: 100;
+		}
+		
+.smallImg{
+			position: absolute;
+			display: block;
+			width: 340px;
+		    height: 470px;
+		    top:0px;
+			}
+.bigArea{
+	box-shadow: 0px 0px 10px rgba(0,0,0,0.40);
+	position: absolute;
+	overflow: hidden;
+	transition: .4s;
+	left: 220px;
+	top: 200px;
+	width:0px;
+	height: 0px;
+	opacity: 1;
+	z-index: 101;
+	 border: 1px solid #888;
+}
+.bigImg{
+	position: absolute;
+	max-width: none;
+	left: 0px;
+	top: 0px;
+	width: 436px;
+	height: 614px;
+}
+
+.jcarousel-skin-tango {
+    overflow: hidden;
+}
+.jcarousel-skin-tango .jcarousel-container-horizontal {
+    width: 480px;
+    padding: 25px 0;
+}
+.jcarousel-container {
+    position: relative;
+}
+.jcarousel-skin-tango .jcarousel-prev-horizontal {
+    position: absolute;
+    top: 25px;
+    left: 0;
+    width: 15px;
+    height: 87px;
+    cursor: pointer;
+    background: transparent url(../images/brandstore_share.png) no-repeat -32px -362px;
+    background-color: #f2f2f2;
+}
+.jcarousel-prev {
+    z-index: 2;
+
+}
+.jcarousel-skin-tango .jcarousel-next-horizontal {
+    position: absolute;
+    top: 25px;
+    right: 0;
+    width: 15px;
+    height: 87px;
+    cursor: pointer;
+    background: transparent url(../images/brandstore_share.png) no-repeat -73px -362px;
+    background-color: #f2f2f2;
+}
+.jcarousel-next {
+    z-index: 2;
+}
+.jcarousel-skin-tango .jcarousel-clip-horizontal {
+    width: 1000px;
+    height: 87px;
+    padding-left: 13px;
+}
+.jcarousel-clip {
+    z-index: 1;
+    padding: 0;
+    margin: 0;
+    overflow: hidden;
+    position: relative;
+}
+.jcarousel-list {
+    z-index: 1;
+    overflow: hidden;
+    position: relative;
+    top: 0;
+    left: 0;
+    margin: 0;
+    padding: 0;
+}
+.jcarousel-skin-tango .jcarousel-item-horizontal {
+    /* margin-right: 10px; */
+    display: inline;
+    text-align: center;
+}
+.jcarousel-skin-tango .jcarousel-item {
+    width: 85px;
+    height: 87px;
+    padding: 0 3px;
+}
+.jcarousel-list li, .jcarousel-item {
+    float: left;
+    list-style: none;
+    width: 75px;
+    height: 75px;
+}
+.jcarousel-skin-tango .jcarousel-item-horizontal .gimg_wrap {
+    height: 85px;
+    width: 83px;
+    overflow: hidden;
+    position: relative;
+    border: 1px solid #ccc;
+}
+.jcarousel-skin-tango .jcarousel-item-horizontal img {
+    /* width: 83px; */
+    height: 85px;
+    margin: 0 auto;
+}
+.jcarousel-skin-tango .jcarousel-item-horizontal .gimg_wrap b {
+    position: absolute;
+    left: -1px;
+    top: -1px;
+    width: 85px;
+    height: 87px;
+    display: none;
+    background: transparent url(../images/brandstore_share.png) no-repeat -111px -390px;
+}
+.show{
+	height: 637px;
+    width: 1032px;
+    margin: 0 auto;
+    overflow: hidden;
+    zoom: 1;
+    margin-top: 15px;
+}
+.showleft{
+	position: relative;
+	width:480px;
+	float:left;
+}
+.gd_textinfo {
+    width: 510px;
+    float: right;
+}
+.blank_25 {
+    clear: both;
+    height: 25px;
+    font-size: 1px;
+    line-height: 0px;
+    overflow: hidden;
+}
+.gd_text_con {
+    width: 100%;
+}
+.from_country_icon {
+    display: block;
+    position: absolute;
+    z-index: 20;
+    top: 0;
+    right: 0;
+}
+.clearfixgd {
+    width: 100%;
+    overflow: hidden;
+    zoom: 1;
+}
+.b_bo_xuxian {
+    border-bottom: 1px dashed #353637;
+}
+.gd_text {
+    display: inline-block;
+    float: left;
+}
+.gd_title {
+    overflow: hidden;
+    zoom: 1;
+}
+.gd_title .tip {
+    font-family: "微软雅黑";
+    font-size: 14px;
+    font-weight: bold;
+    color: #cf0101;
+}
+.tip {
+    color: #df1a22;
+}
+.gd_title a {
+    font-size: 18px;
+    cursor: pointer;
+    font-weight: bold;
+    text-decoration: none;
+}
+.gd_desc {
+    padding: 3px 0px;
+}
+.gd_desc b {
+    font-size: 15px;
+}
+.gd_priceCon {
+    height: 45px;
+    line-height: 45px;
+    vertical-align: middle;
+    position: relative;
+}
+.gd_price {
+    font-size: 14px;
+    color: #d00000;
+    font-family: "微软雅黑";
+}
+.gd_price span {
+    font-size: 20px;
+    margin-left: 8px;
+}
+#hy_price {
+    cursor: pointer;
+}
+.gd_priceCon img {
+    cursor: pointer;
+    position: absolute;
+    top: 12px;
+    left: 229px;
+}
+.gd_priceCon .mbprice_wrap {
+    width: 175px;
+    height: 90px;
+    position: absolute;
+    left: 307px;
+    top: 12px;
+    display: none;
+    z-index: 19;
+}
+.mbprice_wrap .mbprice_title {
+    height: 30px;
+    line-height: 30px;
+    font-size: 12px;
+    text-align: center;
+    background-color: #222325;
+}
+.mbprice_wrap .mbprice_title a, .mbprice_wrap .mbprice_title a:hover {
+    color: #fff;
+}
+.mbprice_list_wrap {
+    border: 1px solid #c7c7c7;
+    background: #fff;
+}
+.mbprice_wrap .mbprice_list_wrap ul {
+    margin: 6px 15px;
+}
+.mbprice_wrap .mbprice_list_wrap ul li {
+    line-height: 17px;
+}
+.home_price {
+    font-family: "微软雅黑";
+    font-size: 14px;
+    color: #565656;
+}
+.mtop15 {
+    margin-top: 15px;
+}
+.f_8c8a8a {
+    color: #8c8a8a;
+}
+.gd_dt {
+    width: 58px;
+    float: left;
+    text-align: left;
+    overflow: hidden;
+}
+.gd_dd {
+    width: auto;
+    min-width: 110px;
+    float: left;
+    overflow: hidden;
+    position: relative;
+}
+.dd_item {
+    float: left;
+    margin-right: 10px;
+    position: relative;
+}
+.dd_item a {
+    display: block;
+    border: 1px solid #ccc;
+    padding: 1px;
+    background-color: #fff;
+    text-align: center;
+    min-width: 22px;
+}
+.dd_item a:hover {
+    padding: 1px;
+    border: 1px solid #d00000;
+}
+.color_size_cur b {
+    display: block;
+    width: 21px;
+    height: 19px;
+    position: absolute;
+    right: 0px;
+    bottom: 0px;
+    background: url(../images/new_5luxbg.png) no-repeat;
+    background-position: -249px -51px;
+}
+.color_size_cur a {
+    padding: 1px;
+    border: none;
+    border: 1px solid #d00000;
+}
+.buy_num {
+    width: 100%;
+    position: relative;
+}
+.buy_num a {
+    display: block;
+    width: 17px;
+    height: 16px;
+    position: absolute;
+    top: 3px;
+}
+.buy_ntext {
+	border: groove;
+    display: block;
+    width: 50px;
+    height: 18px;
+    line-height: 18px;
+    vertical-align: middle;
+    font-weight: bold;
+    margin-left: 24px;
+    text-align: center;
+}
+.home_con {
+    position: relative;
+    height: 68px;
+}
+.all_home_info {
+    float: left;
+    display: inline-block;
+    position: relative;
+    line-height: 22px;
+    overflow: hidden;
+    border-right: 1px dashed #a3a3a3;
+    width: 320px;
+}
+.all_home_info span {
+    display: block;
+    font-family: "微软雅黑";
+    font-size: 12px;
+    color: #565656;
+    white-space: nowrap;
+}
+.sf_detail {
+    position: absolute;
+    top: -8px;
+    left: 24%;
+    width: 368px;
+    background-color: #fff;
+    border: 1px solid #eee;
+    z-index: 1;
+    padding: 8px 15px;
+    color: #595959;
+    text-align: left;
+    display: none;
+}
+.qr-code {
+    float: right;
+    margin-right: 10px;
+    width: 158px;
+    padding: 13px 8px;
+    height: 30px;
+    position: absolute;
+    margin-top: 13px;
+    right: -10px;
+    cursor: pointer;
+    border: 1px solid #ccc;
+}
+.qr-code img {
+    display: none;
+    position: absolute;
+    left: 0px;
+    top: 30px;
+    z-index: 90;
+}
+.weima_icon {
+    display: block;
+    position: absolute;
+    z-index: 100;
+    right: 59px;
+    top: -122px;
+    width: 112px;
+    height: 112px;
+    background: url(../images/detail_good_con.png) -312px -3px no-repeat;
+    cursor: pointer;
+}
+#stdQufenqi b {
+    display: block;
+    margin-top: 2px;
+    width: 20px;
+    height: 20px;
+    background: url(/vendor/images/5lux/qu.jpg) no-repeat;
+    background-size: 20px 20px;
+    float: left;
+    margin-right: 5px;
+}
+#stdQufenqi font {
+    width: auto;
+    height: 24px;
+    line-height: 24px;
+    text-align: left;
+    font-family: "微软雅黑";
+    font-size: 14px;
+    color: #000;
+}
+.buy_btn, .add_car_btn {
+    height: 35px;
+    float: left;
+    _display: inline;
+}
+.btn_reduce {
+    left: 0px;
+}
+.btn_add {
+    left: 85px;
+}
+.clearfix {
+    display: inline-block;
+    overflow: hidden;
+    zoom: 1;
+}
+.allred_btn {
+    background-color: #d31920;
+}
+.all_bigBtn {
+    display: inline-block;
+    height: 35px;
+    line-height: 35px;
+    /*vertical-align: middle;*/
+    color: rgb(255, 255, 255);
+    font-family: 微软雅黑;
+    font-size: 14px;
+    cursor: pointer;
+    padding: 0px 40px;
+    border-width: 0px;
+    /*border-style: initial;
+    border-color: initial;
+    border-image: initial;*/
+    overflow: hidden;
+}
+.add_car_btn {
+    margin-left: 10px;
+    position: relative;
+}
+.add_car_btn .goods_add_fav span {
+    display: inline-block;
+    padding: 0 28px 0px 52px;
+    height: 35px;
+    line-height: 35px;
+    vertical-align: middle;
+    color: #fff;
+    font-family: "微软雅黑";
+    font-size: 14px;
+    border: 0px;
+    cursor: pointer;
+}
+.allyellow_btn {
+    background-color: #e66b2d;
+}
+.add_car_btn .goods_add_fav b {
+    display: block;
+    position: absolute;
+    top: 5px;
+    left: 20px;
+    width: 22px;
+    height: 22px;
+    background: url(../images/new_5luxbg.png) no-repeat;
+    background-position: -128px -100px;
+}
+.all_share {
+    height: 41px;
+    float: left;
+    margin-left: 40px;
+    _display: inline;
+}
+.all_share dl {
+    width: 55px;
+    float: left;
+    text-align: center;
+    font-family: "微软雅黑";
+    font-size: 12px;
+    color: #000;
+    cursor: pointer;
+}
+.all_share dl dt, .all_share dl dd {
+    margin: 0 auto -4px;
+    line-height: 18px;
+}
+.all_share dl dt {
+    width: 30px;
+    height: 23px;
+}
+.all_share .s_weibo {
+    background: url(../images/detail_good_con.png) -259px -9px no-repeat;
+}
+.clearfix .all_share .s_collect{
+    background: url(../images/detail_good_con.png) -161px -9px no-repeat;
+}
+.all_share .s_weixin {
+    background: url(../images/detail_good_con.png) -208px -8px no-repeat;
+}
+
+.clearfix:after {
+    content: ".";
+    display: block;
+    height: 0;
+    clear: both;
+    visibility: hidden;
+}
+.add_collect_bt {
+    display: inline-block;
+    margin-top: 7px;
+}
+.mcar_arrow {
+    position: absolute;
+    display: inline-block;
+    width: 15px;
+    height: 15px;
+    background: url(../images/share02.png) no-repeat -248px -262px;
+    top: 70px;
+    right: -15px;
+    z-index: 20;
+}
+.menu_cancelbox {
+    text-align: right;
+}
+.menu_cancel {
+    cursor: pointer;
+    display: inline-block;
+    width: 13px;
+    height: 13px;
+    top: 0px;
+    right: 0px;
+    background: url(../images/share02.png) no-repeat -217px -263px;
+}
+.mcar_txt {
+    display: block;
+    width: 447px;
+    padding-bottom: 20px;
+    border-bottom: 1px dotted #c9c9c9;
+}
+.mcar_txtx {
+    padding-left: 20px;
+}
+.mcar_line1 {
+    font-size: 12px;
+    font-family: 'microsoft yahei';
+}
+.mcar_line2 {
+    font-size: 12px;
+}
+.mcar_stxt {
+    line-height: 40px;
+}
+.mcar_listshadow {
+    box-shadow: 0 0 4px #999;
+    -webkit-box-shadow: 0 0 4px #999;
+    -moz-box-shadow: 0 0 4px #999;
+}
+.mcar_listshadow img {
+    width: 80px;
+}
+.fenxiang {
+    padding: 10px 0px 8px 0px;
+}
+.b_bo_xuxian {
+    border-bottom: 1px dashed #353637;
+}
+.commitment dl {
+    width: 85px;
+    float: left;
+    padding-top: 10px;
+    text-align: center;
+}
+.commitment dl dt, .commitment dl dd {
+    margin: 0 auto;
+}
+.blank_30 {
+    clear: both;
+    height: 30px;
+    font-size: 1px;
+    line-height: 0px;
+    overflow: hidden;
+}
+#main {
+    width: 1000px;
+    margin: 0 auto;
+    overflow: hidden;
+    zoom: 1;
+}
+.goodsContent_left {
+    width: 810px;
+    float: left;
+}
+.tuijian_tab {
+    width: 1000px;
+    margin: 0 auto;
+}
+.tuijian_tab ul {
+    width: 100%;
+    overflow: hidden;
+    zoom: 1;
+}
+.tuijian_tab ul li.tj_cur {
+    background-color: #030303;
+    color: #fff;
+}
+.tuijian_tab ul li.detail_table {
+    width: 193px;
+    height: 25px;
+    display: inline;
+}
+.tuijian_tab ul li {
+    line-height: 25px;
+    vertical-align: middle;
+    border: 1px solid #9fa0a0;
+    float: left;
+    text-align: center;
+    cursor: pointer;
+    background-color: #fff;
+}
+.mleft6 {
+    margin-left: 6px;
+}
+.goods_detail div {
+    background-color: #fff;
+}
+.tab_Round_text_ul1 {
+    width: 796px;
+    overflow: hidden;
+    padding-top: 20px;
+    /* padding-bottom: 5px; */
+    border: 1px solid #666;
+    background-color: #f4f4f4;
+}
+.tab_Round_text_ul1 li {
+    width: 99px;
+    background: url(../images/xian.png) repeat-x;
+    font-size: 12px;
+    color: #4f4f4f;
+    float: left;
+    position: relative;
+}
+.tab_Round_text_ul1 li span {
+    display: block;
+    width: 22px;
+    height: 19px;
+    background: url(../images/new_5luxbg.png) no-repeat;
+    background-position: -96px -97px;
+    position: relative;
+    top: -8px;
+    left: 21px;
+    cursor: pointer;
+}
+.tab_Round_text_ul1 li a {
+    display: inline-block;
+    position: relative;
+    top: -5px;
+    left: 9px;
+}
+.tab_Round_text_ul1 li.rand_red span {
+    background: url(../images/new_5luxbg.png) no-repeat;
+    background-position: -96px -120px;
+}
+table {
+    border-collapse: collapse;
+}
+.brand_intro {
+    background: url(../images/detail_good_con.png) 0px -140px no-repeat;
+}
+.s_dt_titl {
+    width: 797px;
+    height: 55px;
+    display: block;
+}
+.s_g_info {
+    background: url(../images/detail_good_con.png) 0px -217px no-repeat;
+}
+.s_g_show {
+    background: url(../images/detail_good_con.png) 0px -296px no-repeat;
+}
+.s_promotion {
+    width: 368px;
+    height: 190px;
+    margin: 0 5px;
+    margin-top: 25px;
+    display: inline-block;
+    border: 1px solid #d2d2d2;
+}
+.s_g_aboutus {
+    background: url(../images/detail_good_con.png) 0px -380px no-repeat;
+}

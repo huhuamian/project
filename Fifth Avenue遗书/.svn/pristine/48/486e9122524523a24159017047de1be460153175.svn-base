@@ -1,0 +1,206 @@
+#body2{
+
+	min-height: 1000px;
+	width: 100%;
+}
+.box{
+	position: relative;
+	margin-top: 16px;
+	width: 402px;
+	height: 470px;
+	border: solid 1px #EAEAEA;
+	padding-left:68px ;
+	box-shadow: 0px 0px 10px rgba(0,0,0,0.40);
+}
+#box2{
+	position: absolute;
+	width: 334px;
+	display: block;
+	height: 470px;
+	top: 0px;
+	left: 68px;
+}
+.mask{
+	position: absolute;
+			transition: 1s;
+			top: 0;
+			left: 0;
+			right: 0;
+			bottom: 0;
+}
+.cloudzoom-blank {
+	position: absolute;
+	width: 334px;
+	height: 470px;
+	top: 0px;
+	left: 0px;
+    background-image: url(../images/blank.png);
+}
+#box2:hover .mask{
+			opacity: 0.4;
+			background: #FFFFFF;
+}
+#box2:hover .smallArea{
+			display: block;	
+		}
+#box2:hover .bigArea{
+			left: 420px;
+			top: 0;
+			width: 334px;
+			height: 470px;
+    		box-shadow: 0px 0px 10px rgba(0,0,0,0.40);
+		    border: 1px solid #888;
+}
+.smallArea {
+			transition: width 1s,height 1s;
+			position: absolute;
+			display:none ;
+			overflow: hidden;
+			box-sizing: border-box;
+			top: 0;
+			/*width: 274px;
+			height: 274px;*/
+		    border: 3px solid #888;
+	        box-shadow: 0px 0px 10px rgba(0,0,0,0.40);
+		    cursor: crosshair;
+		    /*background: #000;*/
+		    z-index: 100;
+		}
+		
+.smallImg{
+			position: absolute;
+			display: block;
+			width: 340px;
+		    height: 470px;
+		    top:0px;
+			}
+.bigArea{
+	box-shadow: 0px 0px 10px rgba(0,0,0,0.40);
+	position: absolute;
+	overflow: hidden;
+	transition: .4s;
+	left: 220px;
+	top: 200px;
+	width:0px;
+	height: 0px;
+	opacity: 1;
+	z-index: 101;
+	 border: 1px solid #888;
+}
+.bigImg{
+	position: absolute;
+	max-width: none;
+	left: 0px;
+	top: 0px;
+	width: 436px;
+	height: 614px;
+}
+
+.jcarousel-skin-tango {
+    overflow: hidden;
+}
+.jcarousel-skin-tango .jcarousel-container-horizontal {
+    width: 480px;
+    padding: 25px 0;
+}
+.jcarousel-container {
+    position: relative;
+}
+.jcarousel-skin-tango .jcarousel-prev-horizontal {
+    position: absolute;
+    top: 25px;
+    left: 0;
+    width: 15px;
+    height: 87px;
+    cursor: pointer;
+    background: transparent url(../images/brandstore_share.png) no-repeat -32px -362px;
+    background-color: #f2f2f2;
+}
+.jcarousel-prev {
+    z-index: 2;
+
+}
+.jcarousel-skin-tango .jcarousel-next-horizontal {
+    position: absolute;
+    top: 25px;
+    right: 0;
+    width: 15px;
+    height: 87px;
+    cursor: pointer;
+    background: transparent url(../images/brandstore_share.png) no-repeat -73px -362px;
+    background-color: #f2f2f2;
+}
+.jcarousel-next {
+    z-index: 2;
+}
+.jcarousel-skin-tango .jcarousel-clip-horizontal {
+    width: 1000px;
+    height: 87px;
+    padding-left: 13px;
+}
+.jcarousel-clip {
+    z-index: 1;
+    padding: 0;
+    margin: 0;
+    overflow: hidden;
+    position: relative;
+}
+.jcarousel-list {
+    z-index: 1;
+    overflow: hidden;
+    position: relative;
+    top: 0;
+    left: 0;
+    margin: 0;
+    padding: 0;
+}
+.jcarousel-skin-tango .jcarousel-item-horizontal {
+    /* margin-right: 10px; */
+    display: inline;
+    text-align: center;
+}
+.jcarousel-skin-tango .jcarousel-item {
+    width: 85px;
+    height: 87px;
+    padding: 0 3px;
+}
+.jcarousel-list li, .jcarousel-item {
+    float: left;
+    list-style: none;
+    width: 75px;
+    height: 75px;
+}
+.jcarousel-skin-tango .jcarousel-item-horizontal .gimg_wrap {
+    height: 85px;
+    width: 83px;
+    overflow: hidden;
+    position: relative;
+    border: 1px solid #ccc;
+}
+.jcarousel-skin-tango .jcarousel-item-horizontal img {
+    /* width: 83px; */
+    height: 85px;
+    margin: 0 auto;
+}
+.jcarousel-skin-tango .jcarousel-item-horizontal .gimg_wrap b {
+    position: absolute;
+    left: -1px;
+    top: -1px;
+    width: 85px;
+    height: 87px;
+    display: none;
+    background: transparent url(../images/brandstore_share.png) no-repeat -111px -390px;
+}
+.show{
+	height: 637px;
+    width: 1032px;
+    margin: 0 auto;
+    overflow: hidden;
+    zoom: 1;
+    margin-top: 15px;
+}
+.showleft{
+	position: relative;
+	width:480px;
+	float:left;
+}

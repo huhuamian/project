@@ -1,0 +1,29 @@
+[
+
+{
+"leftimg":"../images/new.jpg",
+"Top":[
+{"id":"t4","num":"","ename":"DIOR HOMME","cname":"","clas":"storesame_top1","price":"￥ 3528","src":"../images/new1.JPG","hprice":"￥6855","typ":"Dior Homme Accessories Spring/Summer 2017","color":"Black","size":["38'-95cm","36'-90cm","42'-105cm","40'-100cm"],"img":["../images/pidai.jpg","../images/pidai2.jpg","../images/pidai3.jpg"]},
+{"id":"t5","ename":"DONDUP","cname":"","clas":"storesame_top2","price":"￥ 1538","src":"../images/new2.jpg","hprice":"￥2875","typ":"Dondup Clothing Spring/Summer 2017","color":"","size":["50ml"],"img":["../images/new2.jpg"]},
+{"id":"t6","ename":"MAX MARA","cname":"","clas":"storesame_top1","price":"￥ 4118","src":"../images/new3.JPG","hprice":"￥8035","typ":"Max Mara Clothing Spring/Summer 2017","color":"Green","size":["S - 42 EU - 10 UK","XS - 40 EU - 8 UK","M - 44 - EU - 8 UK","M - 44 EU - 8 -UK"],"img":["../images/MARA.jpg","../images/MARA2.jpg"]}
+],
+"Bottom":[
+{"id":"b4","ename":"Guerlain","cname":"娇兰","clas":"storesamebottom1","price":"￥ 451","src":"../images/new4.png","hprice":"￥360","typ":"彩色星蜜粉饼10g","color":"健康色","size":["10g"],"img":["../images/jiaolan.png","../images/jiaolan2.jpg","../images/jiaolan3.jpg","../images/jiaolan4.jpg","../images/jiaolan5.jpg"]},
+{"id":"b5","ename":"Dolce & Gabbana","cname":"","clas":"storesamebottom1","price":"￥ 11952","src":"../images/new5.jpg","hprice":"￥23703","typ":"Dolce & Gabbana Handbags Spring/Summer 2017","color":"Black","size":"","img":["../images/Dolce.jpg","../images/Dolce2.jpg","../images/Dolce3.jpg","../images/Dolce4.jpg","../images/Dolce5.jpg"]},
+{"id":"b6","ename":"Manolo Blahnik","cname":"莫罗.伯拉尼克","clas":"storesamebottom1","price":"￥ 8050","src":"../images/new6.jpg","hprice":"￥16100","typ":"优雅方扣缎面高跟鞋 深蓝色","color":"深蓝色","size":["36","35","37.5","37"],"img":["../images/moluo.jpg","../images/moluo2.jpg","../images/moluo3.jpg","../images/moluo4.jpg","../images/moluo5.jpg"]}
+]
+},
+{
+"leftimg":"../images/hot.jpg",
+"Top":[
+{"id":"t1","ename":"Prada","cname":"普拉达","clas":"storesame_top1","price":"￥ 5824","src":"../images/hot1.jpg","hprice":"￥11447","typ":"Prada Shoes Fall/Winter 2017/2018","color":"Black","size":["6","6.5","7","8","9"],"img":["../images/150146184547_941x1320_800x800.jpg","../images/150146185136_941x1320_800x800.jpg","../images/150146185612_941x1320_800x800.jpg","../images/150146186150_941x1320_800x800.jpg","../images/150146186617_941x1320_800x800.jpg","../images/150146189177_941x1320_800x800.jpg"]},
+{"id":"t2","ename":"Gucci","cname":"古驰","clas":"storesame_top2","price":"￥ 5536","src":"../images/hot2.JPG","hprice":"￥10871","color":"Ink","size":"","typ":"Gucci Accessories Spring/Summer 2017","img":["../images/watch.jpg","../images/watch2.jpg"]},
+{"id":"t3","ename":"Valentino","cname":"瓦伦迪诺","clas":"storesame_top1","price":"￥ 3918","src":"../images/hot3.JPG","hprice":"￥7635","color":"green","size":["41.5"],"typ":"Valentino Shoes Fall/Winter 2017/2018","img":["../images/Valentino_989x1320_800x800.jpg","../images/Valentino2_989x1320_800x800.jpg","../images/Valentino3_989x1320_800x800.jpg","../images/Valentino4_989x1320_800x800.jpg"]}
+],
+"Bottom":[
+{"id":"b1","ename":"Lanvin","cname":"浪凡","clas":"storesamebottom1","price":"￥ 5779","src":"../images/hot4.jpg","hprice":"￥11558","typ":"【包邮 免关税】LANVIN 项链 女","color":"银色","size":"","img":["../images/langfan_387x490.JPG","../images/langfan2_387x490.JPG"]},
+{"id":"b2","ename":"Ferragamo","cname":"菲拉格慕","clas":"storesamebottom1","price":"￥ 12763","src":"../images/hot5.jpg","hprice":"￥25325","typ":"Ferragamo Handbags Fall/Winter 2016/2017","color":"Black","size":"","img":["../images/Ferrag_941x1320_800x800.jpg","../images/Ferraga_941x1320_800x800.jpg","../images/Ferraga3_941x1320_800x800.jpg","../images/Ferraga4_941x1320_800x800.jpg","../images/Ferraga5_941x1320_800x800.jpg"]},
+{"id":"b3","ename":"Clinique","cname":"倩bi","clas":"storesamebottom1","price":"￥ 306","src":"../images/hot6.JPG","hprice":"￥360","typ":"宛若新生光采面霜 50ml","color":"","size":["50ml"],"img":["../images/qianbi_800x800.jpg","../images/qianbi2_800x800.jpg","../images/qianbi3_800x800.jpg","../images/qianbi4_800x800.jpg","../images/qianbi5_800x800.jpg"]}
+]
+}
+]

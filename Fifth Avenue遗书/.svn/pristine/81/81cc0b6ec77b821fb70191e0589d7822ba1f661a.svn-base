@@ -1,0 +1,91 @@
+$(function(){
+	/***************************头部和底部******************************************************/
+	$("#head").load("index.html .Top,.head,.nav")
+	$("#foot").load("index.html #footer_message_bg,.right_menu")
+	/*******************************放大镜************************************************************/
+		//计算小区域的宽高
+	$(".smallArea").css({width:334*334/$(".bigImg")[0].width,
+		height:470*470/$(".bigImg")[0].height})
+	//放大系数（放大倍数）//4
+	console.log(470*470/$(".bigImg")[0].height)
+	scale = 470 / parseInt($(".smallArea").css("width"))
+	$("#box2").on({"mouseenter":function(){
+		var zoom=1
+
+		//轮滚事件
+		var scrollFunc=function(e){
+			e = e || event;
+			if (e.preventDefault) {
+				e.preventDefault(); //非IE
+			}
+			else {
+				e.returnValue = false; // IE
+			}
+			//滚动过程中改变小区域的位置, 宽度每增加2px, left减少1px， 高度同理
+			zoom=parseInt(e.wheelDelta / 120)||parseInt(e.detail/ 3)
+			if(zoom>0){
+				//滚动过程中改变小区域的位置, 宽度每增加2px, left减少1px， 高度同理
+				var x = (e.pageX - $("#box2").offset().left - ($(".smallArea")[0].offsetWidth / 2))*1.05
+				var y = (e.pageY - $("#box2").offset().top - ($(".smallArea")[0].offsetHeight / 2))*1.05
+
+				//滚动过程中改变小区域的大小
+				var w = $(".smallArea")[0].offsetWidth* 1.1;
+				var h = $(".smallArea")[0].offsetHeight* 1.1;
+			}else{
+				var x = (e.pageX - $("#box2").offset().left - ($(".smallArea")[0].offsetWidth / 2))*0.95
+				var y = (e.pageY - $("#box2").offset().top - ($(".smallArea")[0].offsetHeight / 2))*0.95
+				var w = $(".smallArea")[0].offsetWidth* 0.9;
+				var h = $(".smallArea")[0].offsetHeight* 0.9;
+			}
+			if(w > 334) w = 334;
+			if(h > 470) h = 470;
+			$(".smallArea")[0].style.width = w + "px";
+			$(".smallArea")[0].style.height = h	+ "px";
+			//重新计算放大系数（放大倍数）
+			scale = 334/ parseInt($(".smallArea").css("width"));
+			//重新确定大图的大小
+			//大图/小图 = 大区域/小区域
+//					$(".bigImg").animate({width:334*334/parseInt($(".smallArea").css("width"))+ "px",height:})
+			$(".bigImg")[0].style.width = 334*334/$(".smallArea")[0].offsetWidth+"px"
+			$(".bigImg")[0].style.height = 470*470 / parseInt($(".smallArea").css("width")) + "px"
+			//根据小图位置，移动小区域和大图
+			move(x,y);
+		}
+
+		if(document.addEventListener){
+			document.addEventListener('DOMMouseScroll',scrollFunc,false);
+		}//W3C
+		window.onmousewheel=document.onmousewheel=scrollFunc;//IE/Opera/Chrome/Safari
+	},
+		"mousemove":function(e){
+			var evt = e || event;
+			//smallArea.style.cursor = "move";
+			var x = evt.pageX - $("#box2").offset().left- ($(".smallArea")[0].offsetWidth / 2)-3;
+			var y = evt.pageY - $("#box2").offset().top- ($(".smallArea")[0].offsetHeight / 2)-3;
+			move(x, y);
+		}
+	})
+
+	//根据小图的位置， 控制边界，移动小区域和大图
+	function move(x, y) {
+		if(x < -3) x = -3;
+		else if(x > $("#box2")[0].offsetWidth - $(".smallArea")[0].offsetWidth-3) {
+			x = $("#box2")[0].offsetWidth - $(".smallArea")[0].offsetWidth-3;
+		}
+		if(y < -3) y = -3;
+		else if(y > $("#box2")[0].offsetHeight - $(".smallArea")[0].offsetHeight-3) {
+			y = $("#box2")[0].offsetHeight - $(".smallArea")[0].offsetHeight-3;
+		}
+		//移动小区域
+		$(".smallArea")[0].style.left = x-3 + "px";
+		$(".smallArea")[0].style.top = y-3 + "px";
+		//移动小图
+		$(".smallImg")[0].style.left = -x + "px";
+		$(".smallImg")[0].style.top = -y + "px";
+		//移动大图
+		$(".bigImg")[0].style.left = -x * scale + "px";
+		$(".bigImg")[0].style.top = -y * scale + "px";
+	}
+
+
+})

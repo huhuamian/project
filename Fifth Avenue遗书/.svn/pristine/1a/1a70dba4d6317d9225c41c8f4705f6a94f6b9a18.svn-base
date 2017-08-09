@@ -1,0 +1,285 @@
+.header_con {
+    width: 100%;
+    height: 100px;
+    overflow: hidden;
+    zoom: 1;
+    text-align: center;
+}
+.register_header {
+    width: 1000px;
+    overflow: hidden;
+    zoom: 1;
+    margin: 10px auto 0px auto;
+    position: relative;
+}
+.register_header .logo {
+    line-height: 82px;
+}
+.register_header .logo img {
+    float: left;
+}
+.register_header .logo .register_headlogo_title {
+    font-family: Helvetica, 黑体;
+    font-size: 18px;
+    color: rgb(148, 146, 146);
+    float: left;
+    padding-left: 10px;
+}
+.register_header_phone {
+    position: absolute;
+    right: 0;
+    bottom: 0px;
+    line-height: 27px;
+    height: 27px;
+}
+.register_header_phone span {
+    font-family: Helvetica, 黑体;
+    font-size: 15px;
+    color: rgb(0, 0, 0);
+}
+.register {
+    background-color: #ecebe7;
+    overflow: hidden;
+    zoom: 1;
+    margin: 0 auto;
+}
+.register_content {
+    width: 1000px;
+    margin: 0 auto;
+    position: relative;
+}
+.register_left {
+    width: 705px;
+    height: 680px;
+    position: absolute;
+    z-index: 5;
+    top: 0;
+}
+.register_right {
+    width: 450px;
+    background-color: #fff;
+    float: right;
+    margin-top: 47px;
+    margin-left: 10px;
+    -webkit-box-shadow: #afabab 0px 0px 8px;
+    -moz-box-shadow: #afabab 0px 0px 8px;
+    box-shadow: #afabab 0px 0px 8px;
+}
+.register_box {
+    width: 300px;
+    margin: 45px auto;
+    text-align: left;
+}
+.register_box ul {
+    display: block;
+    position: relative;
+}
+.re_con_title {
+    width: 100%;
+    padding-bottom: 12px;
+    text-align: left;
+    overflow: hidden;
+    color: #6d6d6d;
+    font-size: 15px;
+    border-bottom: #ccc solid 1px;
+}
+.clear_h32 {
+    height: 32px;
+    line-height: 32px;
+    clear: both;
+    float: none;
+}
+.login_con {
+    height: 64px;
+    /* line-height: 64px; */
+    padding-left: 25px;
+}
+.login_con input {
+    width: 250px;
+    height: 32px;
+    line-height: 32px;
+    vertical-align: middle;
+    border: 1px solid #ccc;
+}
+.reg_input_user_bg {
+    background: url(../images/login_reg_input_user_bg.jpg) no-repeat;
+    text-indent: 2.8em;
+}
+.msg_tips {
+    display: inline-block;
+    font-size: 12px;
+    color: #666;
+    line-height: 15px;
+    vertical-align: middle;
+    width: 150px;
+}
+.msg_warning {
+    display: inline-block;
+    font-size: 12px;
+    margin-left: 10px;
+    color: #333;
+    line-height: 22px;
+    vertical-align: middle;
+    width: 210px;
+    border: 1px solid #ff9ba5;
+    background: #fee0e3;
+}
+.reg_input_pw_bg {
+    background: url(../images/login_reg_input_pw_bg.jpg) no-repeat;
+    text-indent: 2.8em;
+}
+.jizhu {
+    padding-left: 25px;
+    margin-top: 5px;
+    margin-bottom: 10px;
+    display: inline-block;
+}
+.jizhu input {
+    float: left;
+    margin-top: 5px;
+    margin-right: 5px;
+}
+.jizhu span {
+    float: left;
+}
+.jizhu a {
+    color: #a78668;
+    text-decoration: underline;
+    margin-left: 45px;
+}
+.reg_btn_wrap {
+    padding-left: 25px;
+    margin-top: 10px;
+}
+.login_btn {
+    display: inline;
+    width: 250px;
+    margin: 0 auto;
+    height: 30px;
+    line-height: 30px;
+    vertical-align: middle;
+    color: #fff;
+    font-size: 16px;
+    border: 0px;
+    cursor: pointer;
+    overflow: hidden;
+    background-color: #cf0101;
+}
+.login_re {
+    text-align: right;
+    padding-top: 20px;
+    padding-bottom: 20px;
+    padding-right: 25px;
+    border-bottom: #ccc solid 1px;
+}
+.login_re a {
+    text-decoration: underline;
+    color: #a78668;
+    margin-left: 10px;
+}
+.login_hezuo {
+    padding-top: 20px;
+    text-align: center;
+}
+.login_hezuo p {
+    float: left;
+    padding-left: 25px;
+}
+/************************************底部********************************************/
+#footer_message_bg {
+    background: url(../images/footer_message_bg.jpg) center;
+    border-top: 1px solid #c9c9c9;
+}
+#footer_message {
+    width: 1210px;
+    height: 600px;
+    margin: 0 auto;
+}
+#footer_message .footer_message_top {
+    height: 116px;
+    border-bottom: 1px solid #c9c9c9;
+    clear: both;
+}
+.footer_message_top li {
+    width: 242px;
+    height: 64px;
+    float: left;
+    margin-top: 26px;
+}
+#footer_message a {
+    color: #333;
+    font-size: 12px;
+}
+.footer_message_top img {
+    width: 64px;
+    height: 64px;
+    display: inline-block;
+    padding-left: 10px;
+    padding-right: 5px;
+    cursor: pointer;
+    vertical-align: top;
+    float: left;
+}
+.footer_message_top01_r {
+    display: inline-block;
+    float: left;
+    width: 160px;
+    height: 48px;
+    margin-top: 8px;
+}
+.footer_message_top01_r .p1 {
+    font-weight: bold;
+}
+#footer_message .footer_message_ctr {
+    height: 283px;
+    clear: both;
+}
+.footer_message_ctr_l {
+    float: left;
+}
+.footer_message_ctr_l li {
+    width: 185px;
+    overflow: hidden;
+    float: left;
+}
+.footer_message_ctr_l .sp01 {
+    font-weight: bold;
+    margin-top: 20px;
+    margin-bottom: 20px;
+    color: #000;
+}
+.footer_message_ctr_l span {
+    padding: 5px;
+    display: block;
+}
+#footer_message a {
+    color: #333;
+    font-size: 12px;
+}
+.footer_message_ctr_l .pht_app {
+    width: 140px;
+    height: 283px;
+}
+.footer_message_ctr_l .pht_weibo {
+    width: 125px;
+    height: 283px;
+}
+#footer_message .footer_message_btm {
+    text-align: center;
+    color: #fff;
+}
+.footer_message_btm_t {
+    height: 66px;
+    line-height: 66px;
+}
+#footer_message .footer_message_btm a {
+    color: #fff;
+}
+.footer_message_btm_b {
+    margin-top: 23px;
+}
+.footer_message_btm_b img {
+    width: 108px;
+    height: 40px;
+    vertical-align: top;
+}

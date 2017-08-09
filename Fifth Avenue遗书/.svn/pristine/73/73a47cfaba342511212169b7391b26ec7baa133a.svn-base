@@ -1,0 +1,374 @@
+[
+	{
+		"clas": "nav_brand",
+		"list": "推荐品牌",
+		"title": [
+			"最新品牌",
+			"热销品牌",
+			"国际高端"
+		],
+		"content": [
+			{
+				"Louis Vuitton": "/brand/detail/1",
+				"Chanel": "/brand/detail/1",
+				"prada": "/brand/detail/1",
+				"Fendi": "/brand/detail/1",
+				"Versace": "/brand/detail/1",
+				"Burberry": "/brand/detail/1",
+				"Hermes": "/brand/detail/1",
+				"Dior": "/brand/detail/1",
+				"Gucci": "/brand/detail/1",
+				"Mont blanc": "/brand/detail/1",
+				"Armani": "/brand/detail/1"
+			}, {
+				"Sophie & Stephie": "/brand/detail/1",
+				"Michael Kors": "/brand/detail/1",
+				"Swarovski": "/brand/detail/1",
+				"D&G": "/brand/detail/1",
+				"Weekender": "/brand/detail/1",
+				"Rebecca": "/brand/detail/1",
+				"Mincoff": "/brand/detail/1",
+				"Aviendo": "/brand/detail/1"
+			}, {
+				"Columbia": "/brand/detail/1",
+				"Roger Vivier": "/brand/detail/1",
+				"Troika": "/brand/detail/1",
+				"Luis onofre": "/brand/detail/1",
+				"Pull-in": "/brand/detail/1",
+				"Proenza": "/brand/detail/1",
+				"Schouler": "/brand/detail/1",
+				"Brosway": "/brand/detail/1"
+			}
+		]
+	}, {
+		"clas": "xiangbao",
+		"list": "箱包",
+		"title": [
+			"热门词",
+			"推荐品牌",
+			"箱包"
+		],
+		"content": [
+			{
+				"手提包": "/brand/detail/1",
+				"手提斜挎包": "/brand/detail/1",
+				"双肩包": "/brand/detail/1",
+				"手拿包": "/brand/detail/1",
+				"钱包": "/brand/detail/1",
+				"小皮件": "/brand/detail/1",
+				"旅行箱/包": "/brand/detail/1",
+				"斜挎包": "/brand/detail/1",
+				"化妆箱/包": "/brand/detail/1",
+				"功能箱包": "/brand/detail/1"
+			}, {
+				"Gucci古琦": "/brand/detail/1",
+				"Burberry巴宝莉": "/brand/detail/1",
+				"Louis Vuitton/LV路易。威登": "/brand/detail/1",
+				"Prada普拉达": "/brand/detail/1",
+				"Dior迪奥": "/brand/detail/1"
+			}, {
+				"铂金包": "/brand/detail/1",
+				"2.55": "/brand/detail/1",
+				"杀手包": "/brand/detail/1",
+				"金典logo": "/brand/detail/1"
+			}
+		]
+	}, {
+		"clas": "xiangbao",
+		"list": "箱包",
+		"title": [
+			"热门词",
+			"推荐品牌",
+			"箱包"
+		],
+		"content": [
+			{
+				"手提包": "/brand/detail/1",
+				"手提斜挎包": "/brand/detail/1",
+				"双肩包": "/brand/detail/1",
+				"手拿包": "/brand/detail/1",
+				"钱包": "/brand/detail/1",
+				"小皮件": "/brand/detail/1",
+				"旅行箱/包": "/brand/detail/1",
+				"斜挎包": "/brand/detail/1",
+				"化妆箱/包": "/brand/detail/1",
+				"功能箱包": "/brand/detail/1"
+			}, {
+				"Gucci古琦": "/brand/detail/1",
+				"Burberry巴宝莉": "/brand/detail/1",
+				"Louis Vuitton/LV路易。威登": "/brand/detail/1",
+				"Prada普拉达": "/brand/detail/1",
+				"Dior迪奥": "/brand/detail/1"
+			}, {
+				"铂金包": "/brand/detail/1",
+				"2.55": "/brand/detail/1",
+				"杀手包": "/brand/detail/1",
+				"金典logo": "/brand/detail/1"
+			}
+		]
+	}, {
+		"clas": "xiangbao",
+		"list": "箱包",
+		"title": [
+			"热门词",
+			"推荐品牌",
+			"箱包"
+		],
+		"content": [
+			{
+				"手提包": "/brand/detail/1",
+				"手提斜挎包": "/brand/detail/1",
+				"双肩包": "/brand/detail/1",
+				"手拿包": "/brand/detail/1",
+				"钱包": "/brand/detail/1",
+				"小皮件": "/brand/detail/1",
+				"旅行箱/包": "/brand/detail/1",
+				"斜挎包": "/brand/detail/1",
+				"化妆箱/包": "/brand/detail/1",
+				"功能箱包": "/brand/detail/1"
+			}, {
+				"Gucci古琦": "/brand/detail/1",
+				"Burberry巴宝莉": "/brand/detail/1",
+				"Louis Vuitton/LV路易。威登": "/brand/detail/1",
+				"Prada普拉达": "/brand/detail/1",
+				"Dior迪奥": "/brand/detail/1"
+			}, {
+				"铂金包": "/brand/detail/1",
+				"2.55": "/brand/detail/1",
+				"杀手包": "/brand/detail/1",
+				"金典logo": "/brand/detail/1"
+			}
+		]
+	}, {
+		"clas": "xiangbao",
+		"list": "箱包",
+		"title": [
+			"热门词",
+			"推荐品牌",
+			"箱包"
+		],
+		"content": [
+			{
+				"手提包": "/brand/detail/1",
+				"手提斜挎包": "/brand/detail/1",
+				"双肩包": "/brand/detail/1",
+				"手拿包": "/brand/detail/1",
+				"钱包": "/brand/detail/1",
+				"小皮件": "/brand/detail/1",
+				"旅行箱/包": "/brand/detail/1",
+				"斜挎包": "/brand/detail/1",
+				"化妆箱/包": "/brand/detail/1",
+				"功能箱包": "/brand/detail/1"
+			}, {
+				"Gucci古琦": "/brand/detail/1",
+				"Burberry巴宝莉": "/brand/detail/1",
+				"Louis Vuitton/LV路易。威登": "/brand/detail/1",
+				"Prada普拉达": "/brand/detail/1",
+				"Dior迪奥": "/brand/detail/1"
+			}, {
+				"铂金包": "/brand/detail/1",
+				"2.55": "/brand/detail/1",
+				"杀手包": "/brand/detail/1",
+				"金典logo": "/brand/detail/1"
+			}
+		]
+	}, {
+		"clas": "xiangbao",
+		"list": "箱包",
+		"title": [
+			"热门词",
+			"推荐品牌",
+			"箱包"
+		],
+		"content": [
+			{
+				"手提包": "/brand/detail/1",
+				"手提斜挎包": "/brand/detail/1",
+				"双肩包": "/brand/detail/1",
+				"手拿包": "/brand/detail/1",
+				"钱包": "/brand/detail/1",
+				"小皮件": "/brand/detail/1",
+				"旅行箱/包": "/brand/detail/1",
+				"斜挎包": "/brand/detail/1",
+				"化妆箱/包": "/brand/detail/1",
+				"功能箱包": "/brand/detail/1"
+			}, {
+				"Gucci古琦": "/brand/detail/1",
+				"Burberry巴宝莉": "/brand/detail/1",
+				"Louis Vuitton/LV路易。威登": "/brand/detail/1",
+				"Prada普拉达": "/brand/detail/1",
+				"Dior迪奥": "/brand/detail/1"
+			}, {
+				"铂金包": "/brand/detail/1",
+				"2.55": "/brand/detail/1",
+				"杀手包": "/brand/detail/1",
+				"金典logo": "/brand/detail/1"
+			}
+		]
+	}, {
+		"clas": "xiangbao",
+		"list": "箱包",
+		"title": [
+			"热门词",
+			"推荐品牌",
+			"箱包"
+		],
+		"content": [
+			{
+				"手提包": "/brand/detail/1",
+				"手提斜挎包": "/brand/detail/1",
+				"双肩包": "/brand/detail/1",
+				"手拿包": "/brand/detail/1",
+				"钱包": "/brand/detail/1",
+				"小皮件": "/brand/detail/1",
+				"旅行箱/包": "/brand/detail/1",
+				"斜挎包": "/brand/detail/1",
+				"化妆箱/包": "/brand/detail/1",
+				"功能箱包": "/brand/detail/1"
+			}, {
+				"Gucci古琦": "/brand/detail/1",
+				"Burberry巴宝莉": "/brand/detail/1",
+				"Louis Vuitton/LV路易。威登": "/brand/detail/1",
+				"Prada普拉达": "/brand/detail/1",
+				"Dior迪奥": "/brand/detail/1"
+			}, {
+				"铂金包": "/brand/detail/1",
+				"2.55": "/brand/detail/1",
+				"杀手包": "/brand/detail/1",
+				"金典logo": "/brand/detail/1"
+			}
+		]
+	}, {
+		"clas": "xiangbao",
+		"list": "箱包",
+		"title": [
+			"热门词",
+			"推荐品牌",
+			"箱包"
+		],
+		"content": [
+			{
+				"手提包": "/brand/detail/1",
+				"手提斜挎包": "/brand/detail/1",
+				"双肩包": "/brand/detail/1",
+				"手拿包": "/brand/detail/1",
+				"钱包": "/brand/detail/1",
+				"小皮件": "/brand/detail/1",
+				"旅行箱/包": "/brand/detail/1",
+				"斜挎包": "/brand/detail/1",
+				"化妆箱/包": "/brand/detail/1",
+				"功能箱包": "/brand/detail/1"
+			}, {
+				"Gucci古琦": "/brand/detail/1",
+				"Burberry巴宝莉": "/brand/detail/1",
+				"Louis Vuitton/LV路易。威登": "/brand/detail/1",
+				"Prada普拉达": "/brand/detail/1",
+				"Dior迪奥": "/brand/detail/1"
+			}, {
+				"铂金包": "/brand/detail/1",
+				"2.55": "/brand/detail/1",
+				"杀手包": "/brand/detail/1",
+				"金典logo": "/brand/detail/1"
+			}
+		]
+	}, {
+		"clas": "xiangbao",
+		"list": "箱包",
+		"title": [
+			"热门词",
+			"推荐品牌",
+			"箱包"
+		],
+		"content": [
+			{
+				"手提包": "/brand/detail/1",
+				"手提斜挎包": "/brand/detail/1",
+				"双肩包": "/brand/detail/1",
+				"手拿包": "/brand/detail/1",
+				"钱包": "/brand/detail/1",
+				"小皮件": "/brand/detail/1",
+				"旅行箱/包": "/brand/detail/1",
+				"斜挎包": "/brand/detail/1",
+				"化妆箱/包": "/brand/detail/1",
+				"功能箱包": "/brand/detail/1"
+			}, {
+				"Gucci古琦": "/brand/detail/1",
+				"Burberry巴宝莉": "/brand/detail/1",
+				"Louis Vuitton/LV路易。威登": "/brand/detail/1",
+				"Prada普拉达": "/brand/detail/1",
+				"Dior迪奥": "/brand/detail/1"
+			}, {
+				"铂金包": "/brand/detail/1",
+				"2.55": "/brand/detail/1",
+				"杀手包": "/brand/detail/1",
+				"金典logo": "/brand/detail/1"
+			}
+		]
+	}, {
+		"clas": "xiangbao",
+		"list": "箱包",
+		"title": [
+			"热门词",
+			"推荐品牌",
+			"箱包"
+		],
+		"content": [
+			{
+				"手提包": "/brand/detail/1",
+				"手提斜挎包": "/brand/detail/1",
+				"双肩包": "/brand/detail/1",
+				"手拿包": "/brand/detail/1",
+				"钱包": "/brand/detail/1",
+				"小皮件": "/brand/detail/1",
+				"旅行箱/包": "/brand/detail/1",
+				"斜挎包": "/brand/detail/1",
+				"化妆箱/包": "/brand/detail/1",
+				"功能箱包": "/brand/detail/1"
+			}, {
+				"Gucci古琦": "/brand/detail/1",
+				"Burberry巴宝莉": "/brand/detail/1",
+				"Louis Vuitton/LV路易。威登": "/brand/detail/1",
+				"Prada普拉达": "/brand/detail/1",
+				"Dior迪奥": "/brand/detail/1"
+			}, {
+				"铂金包": "/brand/detail/1",
+				"2.55": "/brand/detail/1",
+				"杀手包": "/brand/detail/1",
+				"金典logo": "/brand/detail/1"
+			}
+		]
+	}, {
+		"clas": "xiangbao",
+		"list": "箱包",
+		"title": [
+			"热门词",
+			"推荐品牌",
+			"箱包"
+		],
+		"content": [
+			{
+				"手提包": "/brand/detail/1",
+				"手提斜挎包": "/brand/detail/1",
+				"双肩包": "/brand/detail/1",
+				"手拿包": "/brand/detail/1",
+				"钱包": "/brand/detail/1",
+				"小皮件": "/brand/detail/1",
+				"旅行箱/包": "/brand/detail/1",
+				"斜挎包": "/brand/detail/1",
+				"化妆箱/包": "/brand/detail/1",
+				"功能箱包": "/brand/detail/1"
+			}, {
+				"Gucci古琦": "/brand/detail/1",
+				"Burberry巴宝莉": "/brand/detail/1",
+				"Louis Vuitton/LV路易。威登": "/brand/detail/1",
+				"Prada普拉达": "/brand/detail/1",
+				"Dior迪奥": "/brand/detail/1"
+			}, {
+				"铂金包": "/brand/detail/1",
+				"2.55": "/brand/detail/1",
+				"杀手包": "/brand/detail/1",
+				"金典logo": "/brand/detail/1"
+			}
+		]
+	}
+]

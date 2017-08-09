@@ -1,0 +1,893 @@
+<!DOCTYPE html>
+<html>
+	<head>
+		<meta charset="UTF-8">
+		<title></title>
+		<script src="../js/jquery-1.12.3.js"></script>
+		<script src="../js/jquery.fly.min.js"></script>
+		<script src="../js/jquery.cookie.js"></script>
+		<link  rel="stylesheet" type="text/css" href="../css/index.css"/>
+		<link rel="stylesheet" type="text/css" href="../css/reset.css" />
+		<link rel="stylesheet" href="../css/Detail.css" />
+		<script src="../js/all.js"></script>
+		<script src="../js/Detail.js"></script>
+		
+	</head>
+	<body>
+	<!--顶部-->
+		<div class="Top">
+			<div class="main" style="position: relative;">
+				<dl class="go_home">
+					<dt>
+						<b></b>
+						<a href="index.html">第五大道首页</a>
+						<i></i>
+					</dt>
+				</dl>
+				<dl class="phone">
+					<dt>
+					<b></b>
+					贵宾专线:4008-6767-38
+					</dt>
+				</dl>
+				<div class="T-right">
+					<dl class="moblie">
+						<dt>
+							<span>手机版下载</span>
+						</dt>
+						<dd class="qr" style="display:none;clear: both;">
+							<ul>
+								<li>
+									<img src="../images/qr.jpg" width="106">
+								</li>
+								<li>扫描下载APP</li>
+								<li>
+									立即<span>赠送50元</span>
+								</li>
+							</ul>
+						</dd>
+					</dl>
+					<dl class="help">
+						<dt>
+							<a href="#">帮助中心</a>
+							<i></i>
+						</dt>
+					</dl>
+					<dl class="lu5">
+						<dt>
+							<a href="#">
+								<span>我的第五大道</span><i></i>
+							</a>
+						</dt>
+						<dd style="display:none;">
+							<ul>
+								<a href="#"><li>我的订单</li></a>
+								<a href="#"><li>我的收藏</li></a>
+								<a href="#"><li>已购商品</li></a>
+								<a href="#"><li>我的礼券</li></a>
+								<a href="#"><li>我的积分</li></a>
+							</ul>
+						</dd>
+					</dl>
+					<div class="loadbox">
+						<dl class="load">
+							<dt style="text-align:right;">
+								<a href="#"><span>登录</span></a>
+								<i></i>
+							</dt>
+						</dl>
+						<dl class="loge">
+							<dt>
+								<span class="gift"></span>
+								<a href="#">注册</a>
+								<i></i>
+							</dt>
+						</dl>
+					</div>
+				</div>
+			</div>
+		</div>
+		<!--头部  -->		
+		<div class="head">
+			<div class="main" style="height: 110px;position: relative ;">
+				<div  class="logo">
+					<a href="#">
+						<img src="../images/logo.jpg" width="244">
+					</a>
+				</div>
+				<div class="fa">
+					<a href="javescript:;">
+						<img src="../images/title.jpg" width="142">
+					</a>
+				</div>
+				<div class="search">
+					<form action="" method="" accept-charset="utf-8">
+						<div class="in_con">
+							<input id="tags"type="text"  placeholder="唇部彩妆" name="keyword" style="color:grey;" >
+							<input class="search_b" type="button" value="搜&nbsp;索" >
+							<ul class="alist">
+								<li><a href="#">太阳镜</li>
+								<li><a href="#">美妆</li>
+								<li><a href="#">箱包</li>
+								<li><a href="#">配饰</li>
+								<li><a href="#">运动户外</li>
+								<li><a href="#">腕表</li>
+							</ul>
+						</div>
+					</form>
+				</div>
+				<div class="cart">
+					<dl class="cartbox">
+						<dt>
+							<img src="../images/v30cart.png" width="22" />
+							购物袋（
+							<span id="cart_number">0</span>
+							）
+						</dt>
+						<dd class="shopping_cart_count" style="display: none;">
+							<ul>
+								<li>
+									<p>
+									购物袋暂时没有商品<br />赶紧选择心爱的商品吧！
+									</p>
+								</li>
+							</ul>
+						</dd>
+					</dl>
+				</div>
+			</div>
+		</div>
+		<!--导航-->
+		<div class="nav" style="z-index: 1;">
+			<div class="main" style="position: relative;">
+				<ul class="menu">
+					<li class="cart_list">
+						<a href="javascript:;" class="lux5">商品分类</a>
+					<div class="menuleft" style="display: none;">
+						<ul></ul>
+					</div>
+					</li>
+					<li class="menu_it">
+						<a href="#" class="menu_a">品牌</a>
+					</li>
+					<li class="menu_it">
+						<a href="#" class="menu_a">最新</a>
+					</li>
+					<li class="menu_it">
+						<a href="#" class="menu_a">女士</a>
+					</li>
+					<li class="menu_it">
+						<a href="#" class="menu_a">男士</a>
+					</li>
+					<li class="menu_it">
+						<a href="#" class="menu_a">生活馆</a>
+					</li>
+					<li class="menu_it">
+						<a href="#" class="menu_a">海外馆</a>
+					</li>
+					<li class="menu_it">
+						<a href="#" class="menu_a">时尚</a>
+					</li>
+					<li class="menu_it">
+						<a href="#" class="menu_a">特惠</a>
+					</li>
+					<li class="menu_it">
+						<a href="#" class="menu_a">礼品区 </a>
+					</li>
+					<li class="menu_it">
+						<a href="#" class="menu_a_store">
+							<i></i><span>到店</span>
+						</a>
+					</li>
+				</ul>
+				<ul class="icon_wrap">
+					<li>
+						<div class="divlist divlist01">
+							<a href="#">
+								<span></span>
+						        <b>品牌授权，官方验真</b>
+							</a>
+						</div>
+					</li>
+					<li>
+						<div class="divlist divlist02">
+							<a href="#">
+								<span></span>
+						        <b>尊享品牌会员服务</b>
+							</a>
+						</div>
+					</li>
+					<li>
+						<div class="divlist divlist03">
+							<a href="#">
+								<span></span>
+						        <b>品牌授权，官方验真</b>
+							</a>
+						</div>
+					</li>
+				</ul>
+			</div>
+			<div class="clearfloat"></div>
+		</div>
+
+			<div class="show">
+				<div class="showleft">
+					<div class="box">
+						
+					</div>
+					<div class="jcarousel-skin-tango">
+						<div class="jcarousel-container jcarousel-container-horizontal">
+						<div class="jcarousel-prev jcarousel-prev-horizontal disabled"></div>
+						<div class="jcarousel-next jcarousel-next-horizontal"></div>
+						<div class="jcarousel-clip jcarousel-clip-horizontal">
+							<div style="position: absolute;overflow: hidden;width: 100%;height: 100%;">
+								<ul id="ulBL" class="thumnbelina jcarousel-list jcarousel-list-horizontal" style="left:0px">
+								</ul>
+							</div>
+						</div>
+					</div>
+					</div>	
+				</div>
+				<div class="gd_textinfo">
+					<div class="blank_25"></div>
+					<ul class="gd_text_con" style="position: relative;">
+						<b class="from_country_icon">
+							<img src="../images/14319500704644.jpg"/>
+						</b>
+						<li style="position: relative;" id="hehehe"></li>
+						
+						<li class="clearfixgd mtop15"></li>
+						<li class="opo">
+							<span class="f_8c8a8a">优惠信息：</span>
+							<span style="color: #d00000;">
+								<a href="#"> <dd>订单满9999元送价值1199元时尚管家服务</dd></a>
+							</span>
+						</li>
+						
+						<li class="clearfixgd mtop15" id="coc">
+							<div class="gd_dt">
+								<span>数量：</span>
+							</div>
+							<div class="gd_dd">
+								<div class="buy_num">
+									<a href="javascript:;" id="reducenum" class="btn_reduce goods_num_redu">
+										<img src="../images/gd_jian.jpg"/>
+									</a>
+									<a href="javascript:;" id="addnum" class="btn_add goods_num_add">
+										<img src="../images/gd_jia.jpg" />
+									</a>
+									<input type="text" value="1" class="buy_ntext" name="number" id="number" />
+								</div>
+							</div>
+						</li>
+						<li class="mtop15 home_con">
+							<div class="all_home_info" style="position: relative;">
+								<span>国际运费：第五大道承担</span>
+								<span>海关关税：第五大道承担</span>
+								<span>发货地：意大利直发
+								<b style="margin-left: 15px;"></b>
+								配货时间：预计6-15个工作日发货
+								</span>
+								<span>温馨提示：本商品不支持7天无理由退换货 不支持货到付款</span>
+							</div>
+							<div class="qr-code">
+								<img src="../images/footer_message06.jpg" style="display: none;position: absolute;left: -1px;top: -85px;z-index: 90;" />
+								<i style="display: inline-block;width: 27px;height: 26px;margin-top:1px;background: url(../images/149697742783_27x26.jpg) no-repeat;"></i>
+								<b style="display: inline-block;width: 12px;height: 26px;background:url(../images/149734463161_12x26.png) no-repeat;margin: 0 2px;"></b>
+							<div style="width: 108px;display: inline-block;">
+								<p style="line-height: 14px;color:rgb(102,102,102)">扫码下载手机客户端</p>
+								<p style="line-height: 14px;color: #ff3333;">移动端立减￥30</p>
+							</div>
+							</div>
+							<span class="weima_icon" style="display: none;">
+								<canvas  width="120" height="120">
+							</span>
+						</li>
+						<li style="display: none;">
+							<span>
+								<a href="javascript:;" id="stdQufenqi">
+									<b></b>
+									<font>大学生分期购</font>
+								</a>
+							</span>
+						</li>
+						<li class="mtop15 clearfix" style="position: relative;">
+							<div class="buy_btn">
+								<a href="#"><span class="all_bigBtn allred_btn">立即购买</span></a>
+							</div>
+							<div class="add_car_btn">
+								<a href="javascript:;" class="goods_add_fav">
+									<span class="allyellow_btn">
+										加入购物车
+									</span>
+									<b></b>
+								</a>
+							</div>
+							<div class="all_share">
+								<dl>
+									<dt class="s_collect add_collect_bt"></dt>
+									<dd>收藏</dd>
+								</dl>
+								<dl>
+									<a class="jiathis_button_weixin">
+										<span class="jiathis_txt jiathis_separator jtico jtico_weixin">
+											<dt class="s_weixin"></dt>
+											<dd>分享</dd>
+										</span>
+									</a>
+								</dl>
+								<dl>
+									<a class="jiathis_button_tsina">
+										<span class="jiathis_txt jiathis_separator jtico jtico_tsina">
+											<dt class="s_weibo"></dt>
+											<dd>转发</dd>
+										</span>
+									</a>
+								</dl>
+							</div>
+						</li>
+						<li>
+							<div id="goods_add_popup" style="display: none;">
+								<i class="mcar_arrow"></i>
+								<div class="menu_cancelbox" onclick="$(this).parent().hide()">
+									<i class="menu_cancel" id="menu_cancle"></i>
+								</div>
+								<div class="clearfix menu_txt" id="cart_box_good_info"> 
+									<i></i>
+									<div class="mcar_txtx">
+										<p class="mcar-line1">
+											<b>
+												商品成功放入购物袋，我的购物袋有<span>0</span>
+												件商品
+											</b>
+										</p>
+										<p class="mcar_line2">
+											共计<span>￥0.00</span>元，可以<a href="#">去购物袋结算</a>
+										</p>
+										<div></div>
+									</div>
+								</div>
+								<div class="mcar_similar">
+									<p class="mcar_stxt">同类商品推荐</p>
+									<ul class="mcar_list clearfix">
+										<li class="mcar_liseshadow">
+											<a href="#"><img src="../images/12322_thumb_G_1304503885198.jpg"  /></a>
+											<a href="#">棕色Marlyn纹</a>
+											<span>￥3980</span>
+										</li>
+										<li class="mcar_listshadow">
+											<a href="#"><img src="../images/13043_thumb_G_1304502363317.jpg" alt="" /></a>
+											<a href="#">棕色Marlyn La</a>
+											<span>￥3980</span>
+										</li>
+										<li class="mcar_listshadow">
+											<a href="#"><img src="../images/12322_thumb_G_1304503885198.jpg" alt="" /></a>
+											<a href="#">红棕色牛皮</a>
+											<span>￥4200</span>
+										</li>
+									</ul>
+								</div>
+							</div>
+						</li>
+						<li class="clearfixgd fenxiang b_bo_xuxian"></li>
+						<li class="clearfixgd commitment">
+							<dl>
+								<dt>
+									<img src="../images/zpbz.jpg" alt="" />
+								</dt>
+								<dd>正牌保证</dd>
+							</dl>
+							<dl>
+								<dt>
+									<img src="../images/qqfw.jpg" />
+								</dt>
+								<dd>全球服务</dd>
+							</dl>
+							<dl>
+								<dt>
+									<img src="../images/txkf.jpg" alt="" />
+								</dt>
+								<dd>贴心客服</dd>
+							</dl>
+							<dl>
+								<dt>
+									<img src="../images/qqsd.jpg" alt="" />
+								</dt>
+								<dd>全球速递</dd>
+							</dl>
+							<dl>
+								<dt>
+									<a href="#">
+										<img src="../images/cxqy.png" alt="" />
+									</a>
+								</dt>
+								<dd>商务部诚信企业</dd>
+							</dl>
+						</li>
+					</ul>
+				</div>
+			</div>
+			<div class="blank_30"></div>
+			<div id="main" class="clearfixgd">
+				<div class="goodsContent_left">
+					<div class="tuijian_tab tab-nav" style="width: 810px;">
+						<ul>
+							<li class="detail_table tj_cur">
+								<b>商品详情</b>
+							</li>
+							<li class="detail_table mleft6">
+								<b>尺码参照</b>
+							</li>
+							<li class="detail_table mleft6">
+								<b>关于评价</b>
+							</li>
+							<li class="detail_table mleft6">
+								<a href="#">
+									<b style="color:#E65757">关于第五大道</b>	
+								</a>
+							</li>
+						</ul> 
+					</div>
+					<!--tab 内容区 start-->
+					<div class="goods_detail tab_list">
+						<div class style="display: block;">
+							<!--圆点 start-->
+							<ul class="tab_Round_text_ul1" style="position: relative;top: 0PX;margin-left: 0px;">
+								<li class="rand_red">
+									<span class="quicktab" ancher="goodoverseas"></span>
+									<a href="javascript:;" class="quicktab" anchor="goodoverseas">代购说明</a>
+								</li>
+								<li>
+									<span class="quicktab" ancher="goodstory"></span>
+									<a href="javascript:;" class="quicktab" anchor="goodstory">品牌故事</a>
+								</li>
+								<li>
+									<span class="quicktab" ancher="gooddetail"></span>
+									<a href="javascript:;" class="quicktab" anchor="gooddetail">商品信息</a>
+								</li>
+								<li>
+									<span class="quicktab" ancher="good_zhanshi"></span>
+									<a href="javascript:;" class="quicktab" anchor="good_zhanshi">商品展示</a>
+								</li>
+								<li>
+									<span class="quicktab" ancher="good_order"></span>
+									<a href="javascript:;" class="quicktab" anchor="good_order">订单说明</a>
+								</li>
+								<li>
+									<span class="quicktab" ancher="good_buchang"></span>
+									<a href="javascript:;" class="quicktab" anchor="good_buchang">补偿说明</a>
+								</li>
+								<li>
+									<span class="quicktab" ancher="good_wenti"></span>
+									<a href="javascript:;" class="quicktab" anchor="good_wenti">常见问题</a>
+								</li> 
+								<li>
+									<span class="quicktab" ancher="good_changshi"></span>
+									<a href="javascript:;" class="quicktab" anchor="good_changshi">保养常识</a>
+								</li>
+							</ul>
+							<!--圆点 end-->
+							<table width="797" border="0" align="left" cellpadding="0" cellspacing="0" style="margin-top: 30px;">
+								<tbody>
+									<tr>
+										<td>
+											<a name="goodoverseas" id="goodoverseas"></a>
+											<img src="../images/oversea1.jpg" width="797" height="718" style="display: inline" />
+										</td>
+									</tr>
+									<tr>
+										<td>
+											<img src="../images/oversea2.jpg" width="797" height="537" style="display: inline" />
+										</td>
+									</tr>
+									<tr>
+										<td>
+											<a name="goodstory" id="goodstory"></a>
+											<span class="s_dt_titl brand_intro"></span>
+										</td>
+									</tr>
+									<tr>
+										<td>PRADA可谓奢侈品，在其近百年的发展历程中，致力于创造兼有经典色彩和创新精神的时尚理念，且对每件出品都追求完美 1913年，意大利人Mario Prada创立了Prada，以设计制作和售卖手袋、行李箱、短裤和鞋履为主。由Prada八十年代推出的降落伞背囊开始，到九十年代诞生的二线系列Miu Miu，再到近期成形的Prada Sport 所有PRADA集团麾下的产品的加工生产都是由意大利Tuscany地区的Prada Spa管辖，这地区被公认为拥有皮具和鞋类生产工艺和技术。对于批量生产， PRADA对产品高质量的要求丝毫没有松懈，对品质永不妥协的观点已成为PRADA的企业理念。
+										</td>
+									</tr>
+									<tr>
+										<td>
+											<a name="gooddetail" id="gooddetail"></a>
+											<span class="s_dt_titl s_g_info"></span>
+										</td>
+									</tr>
+									<tr>
+										<td>
+											<table border="0">
+												<!--商品信息 开始-->
+												<tbody>
+													<tr>
+														<td>
+															<dl >
+																<dd>
+																	<a href="javascript">Main color :Black</a>
+																</dd>
+																<dd>
+																	<a href="javascript:;">Materials:Leather,Rubber</a>
+																</dd>
+															</dl>
+														</td>
+													</tr>
+													<tr>
+														<td>
+															<a name="good_zhanshi" id="good_zhanshi"></a>
+															<span class="s_dt_titl s_g_show"></span>
+														</td>
+													</tr>
+													<tr>
+														<td>
+															<img src="../images/product_display_03.jpg" />
+														</td>	
+													</tr>
+													<tr>
+														<td>
+															<img src="../images/oversea4.jpg" />
+															<img src="../images/oversea5.jpg"  />
+															<img src="../images/oversea6.jpg"  />
+															<img src="../images/oversea7.jpg"  />
+														</td>	
+													</tr>
+												</tbody>
+											</table>
+										</td>
+									</tr>
+									<tr>
+										<td>
+											<span class="s_dt_titl s_g_aboutus"></span>
+										</td>
+									</tr>
+									<tr>
+										<td>
+											<span class="s_promotion">
+												<a href="#">
+													<img src="../images/promotion1.jpg" width="368" height="190" style="display: inline;" />
+												</a>
+											</span>
+											<span class="s_promotion" style="margin-left:25px;">
+												<a href="#">
+													<img src="../images/promotion2.jpg" width="368" height="190" style="display: inline;" />
+												</a>
+											</span>
+										</td>
+									</tr>
+								</tbody>
+							</table>
+						</div>
+					</div>
+				</div>
+			</div>
+			<!--footer-->
+		<div id="footer_message_bg">
+			<div id="footer_message">
+				<div class="footer_message_top">
+					<ul>
+						<li class="footer_message_top01">
+							<a href="javascript:;">
+								<img src="../images/footer_message01.jpg"/>
+							</a>
+						
+						<div class="footer_message_top01_r">
+							<p class="p1">正品保障</p>
+							<p class="p2">
+								<a href="javascript:;">品牌授权，官方验证</a>
+							</p>
+						</div>
+						</li>
+							<li class="footer_message_top01">
+							<a href="javascript:;">
+								<img src="../images/footer_message01.jpg"/>
+							</a>
+						
+						<div class="footer_message_top01_r">
+							<p class="p1">正品保障</p>
+							<p class="p2">
+								<a href="javascript:;">品牌授权，官方验证</a>
+							</p>
+						</div>
+						</li>
+							<li class="footer_message_top01">
+							<a href="javascript:;">
+								<img src="../images/footer_message01.jpg"/>
+							</a>
+						
+						<div class="footer_message_top01_r">
+							<p class="p1">正品保障</p>
+							<p class="p2">
+								<a href="javascript:;">品牌授权，官方验证</a>
+							</p>
+						</div>
+						</li>
+							<li class="footer_message_top01">
+							<a href="javascript:;">
+								<img src="../images/footer_message01.jpg"/>
+							</a>
+						
+						<div class="footer_message_top01_r">
+							<p class="p1">正品保障</p>
+							<p class="p2">
+								<a href="javascript:;">品牌授权，官方验证</a>
+							</p>
+						</div>
+						</li>
+							<li class="footer_message_top01">
+							<a href="javascript:;">
+								<img src="../images/footer_message01.jpg"/>
+							</a>
+						
+						<div class="footer_message_top01_r">
+							<p class="p1">正品保障</p>
+							<p class="p2">
+								<a href="javascript:;">品牌授权，官方验证</a>
+							</p>
+						</div>
+						</li>
+					</ul>
+				</div>
+				<div class="footer_message_ctr">
+					<div class="footer_message_ctr_l">
+						<ul style="padding-left: 20px;">
+							<li>
+								<span class="sp01">服务保障</span>
+								<span>
+									<a href="javascript:;">品牌授权正品</a>
+								</span>
+								<span>
+									<a href="javascript:;">品牌客服</a>
+								</span>
+								<span>
+									<a href="javascript:;">预约到店体验</a>
+								</span>
+								<span>
+									<a href="javascript:;">7天无理由退换</a>
+								</span>
+							</li>
+							<li>
+								<span class="sp01">服务保障</span>
+								<span>
+									<a href="javascript:;">品牌授权正品</a>
+								</span>
+								<span>
+									<a href="javascript:;">品牌客服</a>
+								</span>
+								<span>
+									<a href="javascript:;">预约到店体验</a>
+								</span>
+								<span>
+									<a href="javascript:;">7天无理由退换</a>
+								</span>
+							</li>
+							<li>
+								<span class="sp01">服务保障</span>
+								<span>
+									<a href="javascript:;">品牌授权正品</a>
+								</span>
+								<span>
+									<a href="javascript:;">品牌客服</a>
+								</span>
+								<span>
+									<a href="javascript:;">预约到店体验</a>
+								</span>
+								<span>
+									<a href="javascript:;">7天无理由退换</a>
+								</span>
+							</li>
+							<li>
+								<span class="sp01">服务保障</span>
+								<span>
+									<a href="javascript:;">品牌授权正品</a>
+								</span>
+								<span>
+									<a href="javascript:;">品牌客服</a>
+								</span>
+								<span>
+									<a href="javascript:;">预约到店体验</a>
+								</span>
+								<span>
+									<a href="javascript:;">7天无理由退换</a>
+								</span>
+							</li>
+							<li>
+								<span class="sp01">服务保障</span>
+								<span>
+									<a href="javascript:;">品牌授权正品</a>
+								</span>
+								<span>
+									<a href="javascript:;">品牌客服</a>
+								</span>
+								<span>
+									<a href="javascript:;">预约到店体验</a>
+								</span>
+								<span>
+									<a href="javascript:;">7天无理由退换</a>
+								</span>
+							</li>
+							<li class="pht_app">
+								<span class="sp01">
+									第五大道APP
+								</span>
+								<span>
+									<img src="../images/footer_message06.jpg"></img>
+								</span>
+							</li>
+							<li class="pht_weibo">
+								<span class="sp01">
+									第五大道微博
+								</span>
+								<span>
+									<img src="../images/footer_message06.jpg"></img>
+								</span>
+							</li>
+						</ul>
+					</div>
+				</div>
+				<div class="footer_message_btm">
+					<div class="footer_message_btm_t">
+						<a href="javascript:;">箱包</a>  |
+						<a href="javascript:;">美妆</a>  |
+						<a href="javascript:;">服饰</a>  |
+						<a href="javascript:;">腕表</a>  |
+						<a href="javascript:;">配饰</a>  | 
+						<a href="javascript:;">鞋靴</a>  |
+						<a href="javascript:;">特惠</a>  |
+						<a href="javascript:;">礼品区</a> |
+					</div>
+					<div>
+						<a href="javascript:;">关于第五大道</a> |
+						<a href="javascript:;">网站地图</a> |
+						<a href="javascript:;">品牌合作专区</a> |
+						<a href="javascript:;">媒体聚焦</a> |
+						<a href="javascript:;">商务合作</a> |
+						<a href="javascript:;">商家合作</a> |
+						<a href="javascript:;">加入第五大道</a> |
+						<a href="javascript:;">友情链接</a> |
+						<a href="javascript:;">奢尚志</a> |
+						<a href="javascript:;">联系我们</a> |
+						<a href="javascript:;">投诉建议</a> |
+						<p>
+							"Copyright  &copy;  2008-2016 瑞美嘉信国际星系技术（北京）有限公司；版权所有京ICP备09012701号-1
+							                                                  京公网安备110105007400号 食品经营许可证号：
+							                                                    "
+						</p>
+					</div>
+					<div class="footer_message_btm_b">
+						<a href="javascript:;">
+							<img src="../images/14567178388519.jpg"/>
+						</a>
+						<a href="javascript:;">
+							<img src="../images/footer_message10.jpg"/>
+						</a>
+						<a href="javascript:;">
+							<img src="../images/footer_message11.jpg"/>
+						</a>
+					</div>
+				</div>
+			</div>
+		</div>
+		<div class="right_menu">
+			<dl>
+				<dt>
+					<div class="menu_block2">
+						<ul>
+							<li id="menu_cart">
+								<a href="cart.html" class="current">
+									<div class="tab-logo tab-logo_cart"></div>
+								</a>
+								<div class="menu_login"></div>
+							</li>
+							<li class="menu_zichan" id="assets">
+									<a href="#">
+										<div class="tab-logo tab-logo_zichan"></div>
+										<div class="tab-tip" style="display: none;">
+											我的资产
+											<div class="tab-tip-arr right_menu-arr">
+												&diams;
+											</div>
+										</div>
+									</a>
+									<div class="menu_login"></div>
+							</li>
+							<li class="menu_like" id="get_collect">
+								<a href="#">
+									<div class="tab-logo tab-logo_like"></div>
+								<div class="tab-tip" style="display: none;">
+									我喜欢的商品
+									<div class="tab-tip-arr right_menu-arr">
+										&diams;
+									</div>
+								</div>
+								</a>
+								<div class="menu_login">
+									
+								</div>
+							</li>
+							<li class="tab-kefu" id="menu_kefu">
+								<a href="#">
+									<div class="tab-logo tab-logo_kefu"></div>
+									<div class="tab-tip" style="display: none;">
+									联系客服	
+									<div class="tab-tip-arr right_menu-arr">
+										&diams;
+									</div>
+									</div>
+								</a>
+							</li>
+						</ul>
+						<div class="pop_menu_cart goods_add_popup" id="themenu_carts" style="display:none">
+							
+						</div>
+					</div>
+					<div class="menu_block3">
+						<ul>
+							<li>
+								<div class="tab-logo tab-logo_weixin"></div>
+								<div class="tab-tip right_menu-qrcode-tip" style="display: none;">
+									<img src="../images/weixin_img.png">
+									<div class="tab-tip-arr right_menu-arr">
+										&diams;
+									</div>
+								</div>
+							</li>
+							<li>
+								<div class="tab-logo tab-logo_fankui" id="fankui_hover"></div>
+								<div class="tab-tip" style="display: none;">
+									意见反馈
+									<div class="tab-tip-arr right_menu-arr">
+										&diams;
+									</div>
+								</div>
+							</li>
+							<li>
+								<a href="#">
+									<div class="tab-logo tab-logo_line" id="line_hover"></div>
+									<div class="tab-tip" style="display: none;">
+										联系我们
+										<div class="tab-tip-arr right_menu-arr">
+											&diams;
+										</div>
+									</div>
+								</a>
+							</li>
+							<li> 
+								<div class="tab-logo tab-logo_top" id="returntop"></div>
+								<div class="tab-tip" style="display: none;">
+									返回顶部
+									<div class="tab-tip-arr right_menu-arr">
+										&diams;
+									</div>
+								</div>
+							</li>
+						</ul>
+					</div>
+				</dt>
+				<dd>
+					<div class="menuinfo">
+						<div class="assets" style="display: none;"></div>
+						<div class="get_collect" style="display:none"></div>
+						<div class="menu_cart" style="height: 100%;overflow: hidden;display: none;">
+							<div class="tab-active_map">
+								<div class="active_map_box">
+									<div class="active_title">
+										购物袋
+										<b class="close_bg"></b>
+									</div>
+									<div class="shopping_bag_box" style="margin-top: 165px;">
+										<div class="bag_img">
+											<img src="../images/shopping_bag.png"/>
+										</div>
+										<p>您的购物袋还没商品</p>
+										<p>再去逛逛吧！</p>
+									</div>
+								</div>
+							</div>							
+						</div>
+					</div>
+				</dd>
+			</dl>
+		</div>
+	</body>
+</html>

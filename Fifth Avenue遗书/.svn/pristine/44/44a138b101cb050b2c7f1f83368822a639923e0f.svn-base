@@ -1,0 +1,29 @@
+[
+
+{
+"leftimg":"../images/new.jpg",
+"Top":[
+{"ename":"Maison Margisla","cname":"","clas":"storesame_top1","price":"￥ 8429","src":"../images/new1.JPG"},
+{"ename":"Dr Russo","cname":"","clas":"storesame_top2","price":"￥ 1593","src":"../images/new2.jpg"},
+{"ename":"Marcelo","cname":"","clas":"storesame_top1","price":"￥ 2269","src":"../images/new3.JPG"}
+],
+"Bottom":[
+{"ename":"Versace","cname":"范思哲","clas":"storesamebottom1","price":"￥ 1069","src":"../images/new4.JPG"},
+{"ename":"Dr Russo","cname":"","clas":"storesamebottom1","price":"￥ 7751","src":"../images/new5.jpg"},
+{"ename":"Marcelo","cname":"","clas":"storesamebottom1","price":"￥ 6880","src":"../images/new6.jpg"}
+]
+},
+{
+"leftimg":"../images/hot.jpg",
+"Top":[
+{"ename":"Prada","cname":"普拉达","clas":"storesame_top1","price":"￥ 5824","src":"../images/hot1.jpg"},
+{"ename":"Gucci","cname":"古驰","clas":"storesame_top2","price":"￥ 5536","src":"../images/hot2.JPG"},
+{"ename":"Valentino","cname":"瓦伦迪诺","clas":"storesame_top1","price":"￥ 3918","src":"../images/hot3.JPG"}
+],
+"Bottom":[
+{"ename":"Lanvin","cname":"浪凡","clas":"storesamebottom1","price":"￥ 5779","src":"../images/hot4.jpg"},
+{"ename":"Ferragamo","cname":"菲拉格慕","clas":"storesamebottom1","price":"￥ 12763","src":"../images/hot5.jpg"},
+{"ename":"Clinique","cname":"倩bi","clas":"storesamebottom1","price":"￥ 306","src":"../images/hot6.JPG"}
+]
+}
+]
